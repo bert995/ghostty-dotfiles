@@ -15,7 +15,7 @@
 ## 安装
 
 ```sh
-git clone git@github.com:<your-user>/ghostty-dotfiles.git ~/ghostty-dotfiles
+git clone git@github.com:bert995/ghostty-dotfiles.git ~/ghostty-dotfiles
 mkdir -p ~/.config/ghostty
 ln -sf ~/ghostty-dotfiles/config ~/.config/ghostty/config
 ```
