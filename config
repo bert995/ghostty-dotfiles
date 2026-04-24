@@ -1,0 +1,48 @@
+# Ghostty Configuration
+# Reload: Cmd+Shift+,
+
+# Font
+font-family = "Maple Mono NF CN"
+font-style = "Regular"
+font-style-bold = "Bold"
+font-style-italic = "Italic"
+font-style-bold-italic = "Bold Italic"
+font-size = 14
+font-thicken = true
+font-feature = +calt
+font-feature = +liga
+
+# Theme
+theme = light:Catppuccin Latte,dark:Catppuccin Mocha
+
+# Window
+background-opacity = 0.88
+background-blur = 30
+macos-titlebar-style = hidden
+window-padding-balance = true
+window-colorspace = display-p3
+
+window-padding-x = 8
+window-padding-y = 8
+window-save-state = always
+working-directory = /Users/bytedance/bert995
+
+# Cursor
+cursor-style = bar
+cursor-style-blink = false
+
+# Mouse
+mouse-hide-while-typing = true
+focus-follows-mouse = true
+
+# Clipboard
+copy-on-select = clipboard
+
+# Misc
+confirm-close-surface = false
+
+# Split navigation (Cmd + arrows)
+keybind = cmd+left=goto_split:left
+keybind = cmd+right=goto_split:right
+keybind = cmd+up=goto_split:up
+keybind = cmd+down=goto_split:down
